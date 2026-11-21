@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410788.svg)](https://doi.org/10.5281/zenodo.24410788)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-factor-18). This repository is archived and keeps its releases and DOI.
+
 From every real starting height $`1\le H\le1{,}000{,}000{,}000`$, a gain and a loss of more than $`1.9735\log2`$ both finish by $`18H`$. The sieve proves this finite statement unconditionally. Assume the generalised Riemann hypothesis (GRH) for the primitive Dirichlet $L$-functions in the 547/727 race and its base field, including the Riemann zeta function. **At arbitrarily large heights, $`18H`$ misses the loss. At other arbitrarily large heights, it misses the gain.** Even the slightly larger factor $`2e^{11/5}=18.0500\ldots`$ fails. [Theorem and proof](PROOF.md)
 
 Each move is a doubling $`S(y)\to S(2y)`$ with $`y\gt H`$. The score measures weighted inert prime ideals minus weighted split prime ideals on the 547/727 theta-lift host, with both the width and the move fixed at two. The allowed starts lie in $`(H,CH/2]`$ when both endpoints must finish by $`CH`$. [Prime convention and weight](PROOF.md#two-statements-about-the-same-race)
